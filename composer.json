@@ -3,11 +3,14 @@
         "phpunit/phpunit": "4.2.*",
         "phake/phake": "@stable"
     },
+
     "config": {
         "bin-dir": "bin"
     },
+
     "autoload": {
         "classmap": ["src"]
     },
+
     "include-path": ["src"]
 }
