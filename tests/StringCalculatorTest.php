@@ -6,7 +6,7 @@ class StringCalculatorTest extends PHPUnit_Framework_TestCase {
     private $sut;
 
     public function setUp() {
-        $this->$sut = new \StringCalculator();
+        $this->sut = new \StringCalculator();
     }
 
     /**

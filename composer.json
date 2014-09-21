@@ -6,5 +6,8 @@
     "config": {
         "bin-dir": "bin"
     },
-    "autoload": {"psr-0": {"": "src"}}
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "include-path": ["src"]
 }
